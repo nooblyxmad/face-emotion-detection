@@ -1,4 +1,5 @@
 ## Emotion Recognition using DeepFace
+
 Involves the applying of DeepFace, OpenCV, and Python to develop a real-time facial expression detection system. Human emotions that can be detected are: angry, happy, sad, surprise, and neutral. GUI consists of a HUD design that shows the emotions with the confidence level. The app works properly as it applies a timed emotion detection approach.
 
 ---
@@ -39,9 +40,9 @@ A real-time, cyber-styled **Emotion Recognition HUD** (Heads-Up Display) built w
 At minimum, you'll need Python 3.8 to 3.11. (DeepFace and TensorFlow can sometimes be finicky with the brand-new Python 3.12 versions).
 
 **Required Libraries:**
-* opencv-python: For the camera feed and HUD graphics.
-* deepface: The core AI logic.
-* tf-keras or tensorflow: The backend that DeepFace uses to "think."
+* **opencv-python:** For the camera feed and HUD graphics.
+* **deepface:** The core AI logic.
+* **tf-keras or tensorflow:** The backend that DeepFace uses to "think."
   
 ---
 

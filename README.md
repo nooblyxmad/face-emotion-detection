@@ -2,7 +2,7 @@
 Involves the applying of DeepFace, OpenCV, and Python to develop a real-time facial expression detection system. Human emotions that can be detected are: angry, happy, sad, surprise, and neutral. GUI consists of a HUD design that shows the emotions with the confidence level. The app works properly as it applies a timed emotion detection approach.
 
 ---
-# AI Face Emotion HUD
+# AI Face Emotion HUD:
 
 A real-time, cyber-styled **Emotion Recognition HUD** (Heads-Up Display) built with Python. This tool uses your webcam to detect facial expressions and visualizes them through a sleek, neon-themed interface using `DeepFace` and `OpenCV`.
 
@@ -43,7 +43,7 @@ A real-time, cyber-styled **Emotion Recognition HUD** (Heads-Up Display) built w
 
 ---
 
-## How It Works
+## How It Works:
 
 * **Webcam Feed:** The script captures frames from your default camera (cv2.VideoCapture(0)).
 * **Analysis Loop:** To prevent lag, the AI (DeepFace.analyze) runs on a slight delay defined by ANALYZE_EVERY.
@@ -52,7 +52,7 @@ A real-time, cyber-styled **Emotion Recognition HUD** (Heads-Up Display) built w
     * **The Bars:** The left panel shows the intensity of all tracked emotions.
     * **The Label:** The top-most detected emotion is highlighted in Neon Pink.
 
-## Configuration
+## Configuration:
 * You can easily tweak the performance directly in the script:
   ```bash
   # modify analysis frequency (low = more ai updates, higher = smoother video)

@@ -47,7 +47,7 @@ A real-time, cyber-styled **Emotion Recognition HUD** (Heads-Up Display) built w
 
 * **Webcam Feed:** The script captures frames from your default camera (cv2.VideoCapture(0)).
 * **Analysis Loop:** To prevent lag, the AI (DeepFace.analyze) runs on a slight delay defined by ANALYZE_EVERY.
-* **UI Overlay:** * The Box: A "targeting" box stays fixed in the center for the user to align their face.
+* **UI Overlay:** The Box: A "targeting" box stays fixed in the center for the user to align their face.
 * **The Bars:** The left panel shows the intensity of all tracked emotions.
 * **The Label:** The top-most detected emotion is highlighted in Neon Pink.
 

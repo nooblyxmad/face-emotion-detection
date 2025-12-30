@@ -32,6 +32,18 @@ A real-time, cyber-styled **Emotion Recognition HUD** (Heads-Up Display) built w
 <img width="780" height="311" alt="image" src="https://github.com/user-attachments/assets/915e515f-e878-4a06-9acf-831fcf4bf06a" />
 
 ---
+
+## Software Requirements:
+
+At minimum, you'll need Python 3.8 to 3.11. (DeepFace and TensorFlow can sometimes be finicky with the brand-new Python 3.12 versions).
+
+**Required Libraries:**
+* opencv-python: For the camera feed and HUD graphics.
+* deepface: The core AI logic.
+* tf-keras or tensorflow: The backend that DeepFace uses to "think."
+  
+---
+
 ## Installation Process:
 
 1. **Clone the repository:**

@@ -32,7 +32,7 @@ A real-time, cyber-styled **Emotion Recognition HUD** (Heads-Up Display) built w
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/AI-Face-Emotion-HUD.git](https://github.com/YOUR_USERNAME/AI-Face-Emotion-HUD.git)
+   git clone https://github.com/nooblyxmad/face-emotion-detection
    cd AI-Face-Emotion-HUD
 2. **Install dependencies:**
    ```bash
